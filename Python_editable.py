@@ -4,3 +4,9 @@ print('Hola, yo no se de que hablas, yo soy un programa fijo, no puedo ser edita
 
 for i in range(5):
     print(i)
+
+respuesta=input('¿Somos los mejores? ')
+if respuesta.lower() == 'si':
+    print('¡Claro que sí! Somos los mejores')
+else:
+        print('Cuales!! si lo somos, oigan a este')
